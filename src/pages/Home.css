@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('https://img.freepik.com/free-photo/crop-clapperboard-near-tickets-popcorn_23-2147698940.jpg?t=st=1740838560~exp=1740842160~hmac=40995ff2e4e0eece088100d44e811d199f087d402583d1c1512c259f104c2752&w=1060') no-repeat center center fixed;
+  background-size: cover; 
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  width: 100%;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
