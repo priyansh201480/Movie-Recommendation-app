@@ -24,7 +24,7 @@ const Favourites = () => {
       ) : (
         <div className="movie-list">
           {favourites.map((movie) => (
-            <MovieCard key={movie.imdbID} movie={movie} removeFromFavourites={removeFromFavourites} />
+            <MovieCard key={movie.imdbID} movie={movie} />
           ))}
         </div>
       )}
