@@ -6,10 +6,10 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie-card">
       <Link to={`/movie/${movie.imdbID}`} style={{ textDecoration: "none", color: "inherit" }}>
-        <img src={movie.Poster} alt={movie.Title} />
-        <h3>{movie.Title}</h3>
-        <p>{movie.Year}</p>
-      </Link>
+     <img src={movie.Poster} alt={movie.Title} />
+         <h3>{movie.Title}</h3>
+         <p>{movie.Year}</p>
+       </Link>
       <FavouriteButton movie={movie} />
     </div>
   );
