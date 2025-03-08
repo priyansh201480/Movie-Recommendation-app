@@ -8,9 +8,9 @@
 
 h2 {
   color: black;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .movie-list {
@@ -19,28 +19,11 @@ h2 {
   gap: 20px;
   justify-content: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
-.movie-card {
-  background-color: #222;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
-
-.movie-card:hover {
-  transform: scale(1.05);
-}
 
 p {
   color: #777;
   font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  .movie-list {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  }
 }
