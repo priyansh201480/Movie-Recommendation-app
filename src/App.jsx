@@ -6,8 +6,7 @@ import Home from "./pages/Home";
 import Favourites from "./pages/Favourites";
 import MovieDetails from "./pages/MovieDetails";
 import Auth from "./pages/AuthPage"; // 
-import FavouriteProvider from "./context/FavouriteProvider";
-import Signup from "./pages/signUp"
+import Signup from "./pages/Signup"
 
 const PrivateRoute = ({element}) => {
   const [user] = useAuthState(auth);
@@ -16,7 +15,6 @@ const PrivateRoute = ({element}) => {
 
 const App = () => {
   return (
-    <FavouriteProvider>
       <Router>
         <Navbar />
         <Routes>
@@ -30,7 +28,6 @@ const App = () => {
 
         </Routes>
       </Router>
-    </FavouriteProvider>
   );
 };
 
