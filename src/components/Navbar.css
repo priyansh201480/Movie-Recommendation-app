@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
   padding: 15px 30px;
   color: white;
 }
@@ -17,19 +16,6 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
-}
-
-.back-btn {
-  background: none;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-.back-btn:hover {
-  text-decoration: underline;
 }
 
 .logout-btn {
@@ -54,19 +40,3 @@
   color: #e50914;
   font-weight: bold;
 }
-
-.navbar-toggle {
-  display: none;
-  font-size: 1.8rem;
-  color: #fff;
-  cursor: pointer;
-}
-
-
-@media (max-width: 768px) {
-  .navbar-menu {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
